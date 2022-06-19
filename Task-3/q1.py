@@ -16,6 +16,6 @@ print("The initialized Vector is: "+str(vector))
 vector_new = np.zeros((end-start+1)*5)
 
 # Implementing the change
-for i in range(0,vector_new.size,5):
-    vector_new[i] = vector[i//5]
+for i in range(0,vector_new.size,6):
+    vector_new[i] = vector[i//6]
 print("The new vector is: "+str(vector_new))
