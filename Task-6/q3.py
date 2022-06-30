@@ -1,6 +1,7 @@
 # Taking in the file data
 file = open("about.txt", "r")
 text = file.read()
+print(text)
 file.close()
 
 # Splitting the words into list adn sorting
@@ -30,4 +31,4 @@ for k in dict:
     if(dict[k] > val):
         val = dict[k]
         max = k
-print(max)
+print("The most used word is: {} used {} times.".format(max,val))
