@@ -1,0 +1,1 @@
+ i < len(data) and 
